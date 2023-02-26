@@ -1,0 +1,412 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0rem;
+  margin: 0rem;
+}
+body {
+  position: relative;
+  z-index: 2;
+}
+nav {
+  display: flex;
+}
+.logo {
+  width: 83.5px;
+  height: 26.58px;
+  margin-top: 2rem;
+  margin-left: 2.5rem;
+}
+a {
+  width: 79px;
+  height: 16px;
+  /* Body S */
+  margin-left: 57px;
+  margin-top: 34px;
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+  text-decoration: none;
+  /* Medium Grey */
+
+  color: #686868;
+}
+.features {
+  margin-left: 62px;
+}
+.login {
+  margin-left: 575px;
+  width: 38px;
+}
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 42px;
+  width: 104px;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-top: 21px;
+  border: 1.5px solid #686868;
+  border-radius: 14px;
+}
+h2 {
+  width: 540px;
+  height: 161px;
+  /* Heading L */
+
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 80px;
+  /* or 100% */
+  margin-top: 184px;
+  letter-spacing: -1.11111px;
+  margin-left: 165px;
+  /* Black */
+
+  color: #151515;
+}
+p {
+  width: 445px;
+  height: 84px;
+  /* Body M */
+  margin-left: 165px;
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+  margin-top: 48px;
+  /* Medium Grey */
+
+  color: #686868;
+}
+.btn {
+  width: 163px;
+  height: 56px;
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: -0.25px;
+  background: #151515;
+  border-radius: 15px;
+  /* Almost White */
+  margin-left: 165px;
+  color: #fafafa;
+}
+.btn:hover {
+  color: #151515;
+  background: #fafafa;
+  border: 1px solid #151515;
+}
+.clients {
+  width: 500.63px;
+  height: 35.9px;
+  margin-left: 165px;
+  margin-top: 108px;
+}
+.client {
+  margin-left: 40px;
+}
+.a {
+  margin-left: 0px;
+}
+.main {
+  display: flex;
+}
+.hero {
+  width: 480px;
+  height: 640px;
+  margin-top: 67px;
+  margin-left: 125px;
+}
+.list1 {
+  position: absolute;
+  width: 153px;
+  height: 160px;
+  left: 113px;
+  top: 70px;
+  background: #ffffff;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.149126);
+  border-radius: 10px;
+}
+.item {
+  margin-top: 24px;
+  margin-left: 25px;
+}
+.item2 {
+  margin-top: 12px;
+  margin-left: 25px;
+}
+.item1 {
+  margin-left: 15px;
+}
+.down {
+  position: absolute;
+  left: 258px;
+  top: 40px;
+}
+.up {
+  position: absolute;
+  left: 258px;
+  top: 40px;
+}
+.list2 {
+  display: flex;
+  flex-direction: column;
+  /* Pure White */
+  position: absolute;
+  width: 116px;
+  height: 128px;
+  left: 306px;
+  top: 70px;
+  background: #ffffff;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.149126);
+  border-radius: 10px;
+}
+.item5 {
+  margin-top: 20px;
+  margin-left: 25px;
+}
+.up2 {
+  position: absolute;
+  left: 390px;
+  top: 40px;
+}
+.down2 {
+  position: absolute;
+  left: 390px;
+  top: 40px;
+}
+@media screen and (max-width: 375px) {
+  .logo {
+    margin-top: 16px;
+    margin-left: 16px;
+    height: 30px;
+    width: 87px;
+  }
+  .menu {
+    width: 32px;
+    height: 18px;
+    margin-top: 16px;
+    margin-left: 224px;
+  }
+  .main {
+    flex-direction: column-reverse;
+  }
+  .hero-mobile {
+    width: 375px;
+    height: 281.25px;
+    margin-top: 24px;
+  }
+  h2 {
+    width: 343px;
+    height: 42px;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    margin-top: 48px;
+    margin-left: 16px;
+  }
+  p {
+    width: 343px;
+    height: 78px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    margin: 16px 0px 0px 16px;
+  }
+  .btn {
+    height: 48px;
+    width: 136px;
+    margin-top: 24px;
+    margin-left: 119px;
+  }
+  .clients {
+    width: 343px;
+    height: 26px;
+    margin-top: 48px;
+    margin-left: 0px;
+  }
+  .a {
+    width: 81.25px;
+    height: 14.36px;
+    margin-left: 25px;
+  }
+  .b {
+    width: 52.87px;
+    height: 26px;
+    margin-left: 16px;
+  }
+  .f {
+    width: 64.14px;
+    height: 14.36px;
+    margin-left: 16px;
+  }
+  .d {
+    width: 58.9px;
+    height: 17.23px;
+    margin-left: 16px;
+  }
+  .mobi {
+    position: absolute;
+    width: 375px;
+    height: 780px;
+    left: 0px;
+    top: 0px;
+    z-index: 3;
+    /* Black */
+
+    background: #151515;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+  }
+  .content2 {
+    position: absolute;
+    width: 240px;
+    height: 780px;
+    left: 135px;
+    top: 0px;
+    opacity: 1;
+    /* Pure White */
+    z-index: 4;
+    background: #ffffff;
+  }
+  .close {
+    position: absolute;
+    width: 24.04px;
+    height: 24.04px;
+    left: 195px;
+    top: 21.98px;
+    z-index: 5;
+    display: flex;
+  }
+  .features-mobi {
+    display: flex;
+    font-family: "Epilogue";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    height: 26px;
+    width: 71px;
+    /* Medium Grey */
+
+    color: #686868;
+    margin-top: 78px;
+    margin-left: 24px;
+  }
+  .icon {
+    width: 8px;
+    height: 4px;
+    position: absolute;
+    left: 112px;
+    top: 89px;
+  }
+  .list-mobi {
+    margin-top: 24px;
+    margin-left: 30px;
+  }
+  .company-mobi {
+    display: flex;
+    margin-top: 24px;
+    margin-left: 24px;
+    font-family: "Epilogue";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+
+    /* Medium Grey */
+
+    color: #686868;
+  }
+  .up2-mobi {
+    width: 8px;
+    height: 4px;
+    position: absolute;
+    top: 285px;
+    left: 115px;
+  }
+  .down2-mobi {
+    width: 8px;
+    height: 4px;
+    position: absolute;
+    top: 138px;
+    left: 115px;
+  }
+  .list-mobi2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 18px;
+    margin-left: 35px;
+  }
+  .login-mobi {
+    font-family: "Epilogue";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+    margin-top: 32px;
+    margin-left: 103px;
+    /* Medium Grey */
+    display: flex;
+    color: #686868;
+  }
+  .register-mobi {
+    font-family: "Epilogue";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+    width: 195px;
+    text-align: center;
+    height: 42px;
+    position: relative;
+    /* Medium Grey */
+    display: flex;
+    color: #686868;
+    margin-top: 16px;
+    margin-left: 24px;
+    border: 1.5px solid #686868;
+    border-radius: 14px;
+    justify-content: center;
+    align-items: center;
+  }
+  .register-mobi:hover {
+    color: #fafafa;
+    background: #151515;
+    border: 1px solid #fafafa;
+  }
+  .c-mobi {
+    display: flex;
+    margin-top: 24px;
+    margin-left: 24px;
+    font-family: "Epilogue";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+
+    /* Medium Grey */
+
+    color: #686868;
+  }
+}
